@@ -1,38 +1,5 @@
-ÊµÑéÆ÷²Ä:
-	Ì½Ë÷ÕßSTM32F4¿ª·¢°å
-	
-ÊµÑéÄ¿µÄ:
-	Ñ§Ï°CAN×ÜÏßµÄÊ¹ÓÃ.
-	
-Ó²¼þ×ÊÔ´:
-	1,DS0(Á¬½ÓÔÚPF9)
-	2,´®¿Ú1(²¨ÌØÂÊ:115200,PA9/PA10Á¬½ÓÔÚ°åÔØUSB×ª´®¿ÚÐ¾Æ¬CH340ÉÏÃæ)
-	3,ALIENTEK 2.8/3.5/4.3/7´çTFTLCDÄ£¿é(Í¨¹ýFSMCÇý¶¯,FSMC_NE4½ÓLCDÆ¬Ñ¡/A6½ÓRS) 
-	4,°´¼üKEY0(PE4)/KEY_UP(PA0) 
-	5,CAN(STM32×Ô´øµÄCAN¿ØÖÆÆ÷,Á¬½ÓÔÚPA11/PA12) 
-
-ÊµÑéÏÖÏó:
-	±¾ÊµÑé´úÂë£¬¿ÉÒÔÈÃSTM32F4µÄCAN¹¤×÷ÔÚ»·»ØÄ£Ê½/ÆÕÍ¨Ä£Ê½ÏÂ£¬Í¨¹ýKEY_UP°´¼üÇÐ»»Ä£Ê½¡£Ä¬ÈÏÊÇ»·»ØÄ£
-	Ê½£¬ÔÚ»·»ØÄ£Ê½ÏÂ£¬°´ÏÂKEY0£¬Ôò¿ÉÒÔÔÚLCDÄ£¿éÉÏÃæ¿´µ½×Ô·¢×ÔÊÕµÄÏûÏ¢¡£Èç¹ûÊÇÆÕÍ¨Ä£Ê½£¬ÄÇÃ´ÐèÒªÁ½
-	¸ö¿ª·¢°å£¬²¢ÇÒÓÃÏß½«Á½¸ö¿ª·¢°åµÄCAN½Ó¿ÚÁ¬½ÓÆðÀ´£¬Í¬Ê±ÐèÒªÉèÖÃ°åÉÏµÄP11¶Ë¿ÚÁ¬½ÓÔÚCANÉÏÃæ£¬ÔÚÆÕ
-	Í¨Ä£Ê½ÏÂ£¬°´ÏÂÒ»¸ö¿ª·¢°åµÄKEY0£¬¿ÉÒÔÔÚÁíÍâÒ»¸ö¿ª·¢°åÉÏ¿´µ½ÊÕµ½µÄÐÅÏ¢¡£ 
-  	  
-×¢ÒâÊÂÏî: 
-	1,4.3´çºÍ7´çÆÁÐèÒª±È½Ï´óµçÁ÷,USB¹©µç¿ÉÄÜ²»×ã,ÇëÓÃÍâ²¿µçÔ´ÊÊÅäÆ÷(ÍÆ¼öÍâ½Ó12V 1AµçÔ´).
-	2,±¾Àý³ÌÔÚLCD_Initº¯ÊýÀïÃæ(ÔÚILI93xx.c),ÓÃµ½ÁËprintf,Èç¹û²»³õÊ¼»¯´®¿Ú1,½«µ¼ÖÂÒº¾§ÎÞ·¨ÏÔÊ¾!!  
-	3,P11ÌøÏßÃ±µÄÁ¬½Ó×´Ì¬±ØÐëÊÇ:CAN_TXÁ¬½ÓPA12,CAN_RXÁ¬½ÓPA11.
-	4,CAN½Ó¿ÚµÄCANL/CANHÏß²»ÄÜ½Ó´í,±ØÐëCANL½ÓCANL,CANH½ÓCANH.
-	
-	 
-					ÕýµãÔ­×Ó@ALIENTEK
-					2014-10-25
-					¹ãÖÝÊÐÐÇÒíµç×Ó¿Æ¼¼ÓÐÏÞ¹«Ë¾
-					µç»°£º020-38271790
-					´«Õæ£º020-36773971
-					¹ºÂò£ºhttp://shop62103354.taobao.com
-					http://shop62057469.taobao.com
-					¹«Ë¾ÍøÕ¾£ºwww.alientek.com
-					¼¼ÊõÂÛÌ³£ºwww.openedv.com
-					
-					
+ä½¿ç”¨çš„å¼€å‘æ¿ï¼šstmf407ZGT6,F4ç³»åˆ—éƒ½å¯ä»¥ä½¿ç”¨ã€‚
+æŽ§åˆ¶çš„ç”µæœºçš„åž‹å·æ˜¯ä¸Šæµ·é¢†æŽ§çš„MGç³»åˆ—ç”µæœºã€‚
+ç›´æŽ¥ä½¿ç”¨ä¸²å£åŠ©æ‰‹å°±å¯ä»¥æŽ§åˆ¶ã€‚
+ä¸‰ç§æ¨¡å¼é€Ÿåº¦æ¨¡å¼ï¼Œå¤šåœˆä½ç½®æ¨¡å¼ç­‰å‘½ä»¤
 					
